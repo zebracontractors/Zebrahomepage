@@ -193,33 +193,9 @@
 .desktop1-text19 {
   font-weight: 700;
 }
-/* Mobile-specific adjustments */
-@media only screen and (max-width: 600px) {
-  /* Add styles here that you want to apply only on screens with a maximum width of 768px (typical tablets and smaller devices) */
-
-  .desktop1-container {
-    align-items: flex-start; /* Align items to the top of the container */
-  }
-
-  .desktop1-desktop1 {
-    height: auto; /* Allow height to adjust dynamically based on content */
-    padding: 10px; /* Reduce padding for smaller screens */
-  }
-
+@media (max-width: 767px) {
   .desktop1-text {
-    font-size: 18px; /* Decrease font size for better readability on smaller screens */
-    text-align: center; /* Center text on smaller screens */
+    font-size: 60px;
+    top: 150px;
   }
-
-  .desktop1-img90201 {
-    width: 100%; /* Ensure images occupy full width of the container */
-    height: auto; /* Allow height to adjust dynamically based on width */
-  }
-
-  .desktop1-right-arrow {
-    display: none; /* Hide the right arrow on smaller screens if necessary */
-  }
-
-  /* Add more styles for other elements as needed */
 }
-
