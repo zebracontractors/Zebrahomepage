@@ -238,21 +238,24 @@
 }
 
 .desktop1-text05 {
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 .desktop1-text06,
 .desktop1-text07,
 .desktop1-text09,
+.desktop1-text10
 .desktop1-text12,
 .desktop1-text13 {
   font-size: 1.5vw;
+  left:auto;
+  top:auto;
 }
 
 /* Styles for images */
 .desktop1-img90201 {
-  width: 100%; /* Adjusted width for responsiveness */
-  height: auto; /* Maintain aspect ratio */
+  width: 360px; /* Adjusted width for responsiveness */
+  height: 640px; /* Maintain aspect ratio */
 }
 
 /* Styles for arrows and other elements */
