@@ -9,7 +9,7 @@
 
 .desktop1-desktop1 {
   width: 100%;
-  height: 44vw; /* 726px converted to vw */
+  height: 400vw; /* 726px converted to vw */
   display: flex;
   overflow: hidden;
   position: relative;
