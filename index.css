@@ -193,37 +193,124 @@
 .desktop1-text19 {
   font-weight: 700;
 }
-/* Mobile optimization */
-@media (max-width: 767px) {
-  .desktop1-text {
-    font-size: 60px;
-    top: 150px;
-  }
+@media only screen and (max-width: 600px) {
+  /* Mobile Optimization */
 
-  .desktop1-img90201 {
-    width: 100%;
-    height: auto;
-  }
-
-  .desktop1-right-arrow {
-    top: 670px;
-    left: calc(50% - 45px);
-    transform: translateY(-50%);
-  }
-
-  .desktop1-text06 {
-    top: auto;
-    left: 20px;
-    bottom: 20px;
-    right: auto;
-    text-align: center;
-  }
-
-  .desktop1-text07,
-  .desktop1-text09,
-  .desktop1-rectangle1,
-  .desktop1-text10,
-  .desktop1-text12 {
-    display: none;
-  }
+.desktop1-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px; /* Adjust padding as needed */
 }
+
+.desktop1-desktop1 {
+  width: 100%;
+  height: auto; /* Adjust height for responsiveness */
+  display: flex;
+  position: relative;
+  align-items: center; /* Center content vertically */
+  justify-content: center;
+  background-color: rgba(14, 13, 13, 1);
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.desktop1-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 24px; /* Adjust font size for mobile */
+  text-align: center;
+  font-family: Jacques Francois Shadow;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.desktop1-img90201 {
+  width: 100%;
+  height: auto; /* Adjust height for responsiveness */
+}
+
+.desktop1-text02 {
+  color: rgb(255, 255, 255);
+  font-size: 18px; /* Adjust font size for mobile */
+  text-align: center;
+  font-family: "Armata";
+  font-weight: 400;
+  margin: 10px 0; /* Adjust margin as needed */
+}
+
+.desktop1-text03 {
+  font-size: 16px; /* Adjust font size for mobile */
+  font-style: normal;
+  font-weight: 400;
+}
+
+.desktop1-text04 {
+  font-size: 14px; /* Adjust font size for mobile */
+  text-transform: uppercase;
+}
+
+.desktop1-text05 {
+  color: #a69e9e;
+  font-size: 12px; /* Adjust font size for mobile */
+  text-transform: uppercase;
+  position: static;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.desktop1-right-arrow {
+  /* Adjust positioning and size for mobile */
+  position: static;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.desktop1-text06 {
+  /* Adjust positioning and font size for mobile */
+  font-size: 14px; /* Adjust font size for mobile */
+}
+
+.desktop1-text07 {
+  /* Adjust positioning and font size for mobile */
+  font-size: 14px; /* Adjust font size for mobile */
+}
+
+.desktop1-text09 {
+  /* Adjust positioning and font size for mobile */
+  font-size: 14px; /* Adjust font size for mobile */
+}
+
+.desktop1-rectangle1 {
+  /* Adjust positioning and size for mobile */
+  position: static;
+  width: 100px; /* Adjust width for mobile */
+  height: 20px; /* Adjust height for mobile */
+}
+
+.desktop1-text10 {
+  /* Adjust positioning and font size for mobile */
+  font-size: 14px; /* Adjust font size for mobile */
+}
+
+.desktop1-text12 {
+  /* Adjust positioning and font size for mobile */
+  font-size: 14px; /* Adjust font size for mobile */
+}
+
+.desktop1-text13 {
+  /* Adjust positioning and font size for mobile */
+  font-size: 18px; /* Adjust font size for mobile */
+  width: 100%; /* Adjust width for mobile */
+  text-align: center; /* Center text on mobile */
+}
+
+.desktop1-text15 {
+  font-weight: 700;
+}
+
+.desktop1-text19 {
+  font-weight: 700;
+}
+}
+  
+
