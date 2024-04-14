@@ -194,7 +194,7 @@
   font-weight: 700;
 }
 /* Mobile-specific adjustments */
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* Add styles here that you want to apply only on screens with a maximum width of 768px (typical tablets and smaller devices) */
 
   .desktop1-container {
