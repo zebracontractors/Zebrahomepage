@@ -193,9 +193,37 @@
 .desktop1-text19 {
   font-weight: 700;
 }
+/* Mobile optimization */
 @media (max-width: 767px) {
   .desktop1-text {
     font-size: 60px;
     top: 150px;
+  }
+
+  .desktop1-img90201 {
+    width: 100%;
+    height: auto;
+  }
+
+  .desktop1-right-arrow {
+    top: 670px;
+    left: calc(50% - 45px);
+    transform: translateY(-50%);
+  }
+
+  .desktop1-text06 {
+    top: auto;
+    left: 20px;
+    bottom: 20px;
+    right: auto;
+    text-align: center;
+  }
+
+  .desktop1-text07,
+  .desktop1-text09,
+  .desktop1-rectangle1,
+  .desktop1-text10,
+  .desktop1-text12 {
+    display: none;
   }
 }
