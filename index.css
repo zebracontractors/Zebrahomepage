@@ -193,3 +193,13 @@
 .desktop1-text19 {
   font-weight: 700;
 }
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .desktop1-text {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .desktop1-text02 {
+    font-size: 24px; /* Adjust font size */
+  }
+}
