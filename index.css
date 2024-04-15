@@ -82,14 +82,6 @@
   text-transform: uppercase;
 }
 
-.desktop1-right-arrow {
-  top: 12.6389vw; /* 916px converted to vw */
-  left: 73.6111vw; /* 1058px converted to vw */
-  width: 6.25vw; /* 90px converted to vw */
-  height: 4.8611vw; /* 67px converted to vw */
-  position: absolute;
-}
-
 .desktop1-text06 {
   top: 2.7778vw; /* 40px converted to vw */
   left: 65vw; /* 963px converted to vw */
